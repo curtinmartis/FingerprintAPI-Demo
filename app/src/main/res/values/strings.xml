@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fingerprint Demo</string>
+    <string name="txt_state_waiting">Waiting to scan…</string>
+    <string name="txt_state_scanning">Scanning…</string>
+    <string name="txt_state_found_print">Fingerprint detected!</string>
+    <string name="txt_state_no_print">Failed to find a known fingerprint.</string>
+    <string name="txt_state_error">Encountered a scanning error.</string>
+    <string name="txt_state_unsupported">Fingerprint scanning not supported.</string>
+
+    <string name="toast_crypto_generated">Generated key and cipher. Ready to scan.</string>
+    <string name="toast_key_not_generated">Unable to generate key.</string>
+    <string name="toast_cipher_not_initialized">Unable to initialize cipher. Please authenticate.</string>
+    <string name="toast_crypto_unlocked">Key unlocked.</string>
+    <string name="toast_crypto_locked">Key locked. Need to authenticate fingerprint.</string>
+    <string name="toast_encryption_successful">Encryption worked!</string>
+
+    <string name="btn_scan">Scan</string>
+    <string name="btn_stop">Stop Scanning</string>
+    <string name="btn_encrypt">Encrypt Some Stuff</string>
+</resources>
